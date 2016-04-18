@@ -1,0 +1,37 @@
+{
+  "name": "etcd-statsd",
+  "version": "1.0.0",
+  "description": "pull stats from etcd api and publish to statsd",
+  "main": "etcd.js",
+  "scripts": {
+    "test": "grunt",
+    "start": "node etcd.js"
+  },
+  "bin": {
+    "etcd-statsd": "./bin/etcd-statsd.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andyroyle/etcd-statsd.git"
+  },
+  "author": "Andy Royle <ajroyle@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andyroyle/etcd-statsd/issues"
+  },
+  "homepage": "https://github.com/andyroyle/etcd-statsd#readme",
+  "dependencies": {
+    "async": "^2.0.0-rc.3",
+    "request": "^2.72.0",
+    "statsd-client": "^0.2.1"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5",
+    "grunt-cli": "^0.1.13",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-mocha-test": "^0.12.7",
+    "mocha": "^2.4.5",
+    "proxyquire": "^1.7.4",
+    "should": "^8.2.2"
+  }
+}

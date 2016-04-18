@@ -1,0 +1,9 @@
+[
+  {
+    "host": "http://localhost:2379",
+    "tags": {
+      "foo": "bar"
+    },
+    "prefix": "yay"
+  }
+]
